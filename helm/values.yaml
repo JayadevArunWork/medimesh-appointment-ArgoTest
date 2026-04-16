@@ -1,5 +1,5 @@
 image:
-  repository: your-dockerhub-username/medimesh-appointment
+  repository: bharath44623/medimesh_medimesh-appointment
   tag: latest
   pullPolicy: Always
 
