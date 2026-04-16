@@ -1,6 +1,6 @@
 image:
   repository: bharath44623/medimesh_medimesh-appointment
-  tag: latest
+  tag: v2
   pullPolicy: Always
 
 service:
