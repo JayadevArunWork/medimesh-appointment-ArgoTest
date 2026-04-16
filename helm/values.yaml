@@ -1,18 +1,7 @@
-name: medimesh-appointment
-  replicas: 2
-  image:
-    repository: bharath44623/medimesh_medimesh-appointment
-    tag: "v1.1.0"
-  containerPort: 5004
-  dbName: medimesh-appointment-db
-  service:
-    name: medimesh-appointment-svc
-    port: 5004
-  resources:
-    requests:
-      cpu: "100m"
-      memory: "128Mi"
-    limits:
-      cpu: "500m"
-      memory: "512Mi"
-  extraEnv: []
+image:
+  repository: bharath44623/medimesh_medimesh-appointment
+  tag: latest
+  pullPolicy: Always
+
+service:
+  port: 8080
